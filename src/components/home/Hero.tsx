@@ -25,7 +25,7 @@ const Hero = () => {
                     <div className="relative w-[1400px] max-w-full mt-12 md:mt-14 rounded-3xl overflow-hidden">
                         <div className="relative pt-[56.25%]">
                             <ReactPlayer
-                                src="/videos/local_video.mp4"
+                                src="https://www.youtube.com/watch?v=ll7Su_BCNCA"
                                 width="100%"
                                 height="100%"
                                 className="absolute top-0 left-0"
