@@ -25,11 +25,15 @@ const Hero = () => {
                     <div className="relative w-[1400px] max-w-full mt-12 md:mt-14 rounded-3xl overflow-hidden">
                         <div className="relative pt-[56.25%]">
                             <ReactPlayer
-                                src="https://www.youtube.com/watch?v=m6rC_bMPLG8"
+                                src="/videos/local_video.mp4"
                                 width="100%"
                                 height="100%"
                                 className="absolute top-0 left-0"
                                 controls
+                                playing={true}
+                                muted={true}
+                                autoPlay={true}
+                                loop={true}
                             />
                         </div>
                     </div>

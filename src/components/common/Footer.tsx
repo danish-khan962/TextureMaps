@@ -14,7 +14,7 @@ const navigationLinks = [
         inputs: [
             { link: "Home", href: "/" },
             { link: "Services", href: "/services" },
-            { link: "About", href: "/about" },
+            { link: "About", href: "/about-us" },
             { link: "Contact", href: "/contact" },
         ]
     },
